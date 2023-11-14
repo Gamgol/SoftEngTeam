@@ -1,4 +1,4 @@
-def main();
+def main():
     a = int(input())
     while True:
         operator = input()
