@@ -1,0 +1,11 @@
+def main():
+    a = int(input())
+    while True:
+        operator = input()
+        if operator == "*" :
+            a = mul(a)
+        break
+
+def mul(a):
+    b = int(input())
+    return a * b
