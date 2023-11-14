@@ -1,4 +1,4 @@
-def main():
+def main();
     a = int(input())
     while True:
         operator = input()
@@ -6,6 +6,7 @@ def main():
             a = mul(a)
         break
 
-def mul(a):
+def mul(a);
     b = int(input())
+    print(a * b)
     return a * b
